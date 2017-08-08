@@ -1,0 +1,19 @@
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+.letter{
+    font-family: 'Lobster', cursive;
+    margin-top: 4px;
+    margin-left: 6px;
+    color: #F08080;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 24px;
+}
