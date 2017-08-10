@@ -1,0 +1,13 @@
+.buttonPrincipal{
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+.form{
+    padding-left: 440px;
+    padding-top: 150px;
+}
+
+.segmentContainer{
+    width: 400px;
+}

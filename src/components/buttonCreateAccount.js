@@ -1,11 +1,11 @@
 import React from 'react'
-import { Button } from 'semantic-ui-react'
+import classNames from 'classnames';
 import './buttonCreateAccount.css'
 
-const ButtonCreateAccount = () => (
-  <div className="button">
-    Create Account
+const ButtonCreateAccount = (props) => (
+  <div className={classNames('button', {'button-white': props.white })}>
+    {props.text}
   </div>
 )
 
-export default ButtonCreateAccount
+export default ButtonCreateAccount;

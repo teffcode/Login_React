@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import Menu from './components/menu.js';
-import ButtonH from './components/buttonHome.js';
+import Logo from './components/logo.js';
 import ButtonCA from './components/buttonCreateAccount.js';
-import PrincipalView from './components/principalView.js';
+import Card from './components/cardLogin.js';
 
 class App extends Component {
 
@@ -11,10 +11,12 @@ class App extends Component {
     return (
       <div>
         <Menu>
-          <ButtonH/>
-          <ButtonCA/>
+          <Logo/>
+          <ButtonCA white text="Login" />
+          <ButtonCA style={{cursor: 'pointer'}}
+          text="Create Account" />
         </Menu>
-        <PrincipalView/>
+        <Card/>
       </div>
     );
   }

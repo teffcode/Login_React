@@ -4,10 +4,12 @@
 }
 
 .letter{
-    font-family: 'Lobster', cursive;
+    font-family: 'Courgette', cursive;;
     margin-top: 4px;
-    margin-left: 6px;
-    color: #F08080;
+    margin-left: 14px;
+    color: #48D1CC;
+    font-size: 37px;
+    font-weight: bold;
 }
 
 .content{
